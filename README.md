@@ -19,8 +19,7 @@ Welcome to my personal portfolio! This web application showcases my skills, proj
 
 - **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript (Vanilla)
 - **Tools:** Font Awesome, Google Fonts
-- **Hosting:** GitHub Pages / Netlify / Vercel (your choice)
-
+- **Hosting:**  Netlify 
 ## 📁 Project Structure
 
 ```bash
