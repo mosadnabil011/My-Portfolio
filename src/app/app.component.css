@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+.full-page-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* main {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  z-index: -1;
+} */
+
+.glass-glow{
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.1), 0 0 80px rgba(0, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-radius: 8px; */
+}
+

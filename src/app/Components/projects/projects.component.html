@@ -1,0 +1,33 @@
+<section id="projects" class="py-5 full-page-section text-white" data-aos="fade-up"
+         >
+  <div class="container">
+    <h2 class="text-center mb-5 display-5 fw-bold">My Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let project of projects">
+        <div class="card h-100 shadow-lg border-0"
+             style="
+               background: rgba(255, 255, 255, 0.08);
+               border: 1px solid rgba(255, 255, 255, 0.15);
+               backdrop-filter: blur(12px);
+               border-radius: 20px;
+               transition: transform 0.3s ease, box-shadow 0.3s ease;
+               overflow: hidden;
+             "
+             onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 24px rgba(0,0,0,0.3)'"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
+        >
+          <img [src]="project.image" class="card-img-top" alt="Project Image" style="height: 200px; object-fit: cover;" />
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">{{ project.title }}</h5>
+            <p class="card-text text-light opacity-75">{{ project.description }}</p>
+          </div>
+          <div class="card-footer text-end border-0 bg-transparent">
+            <a [href]="project.link" target="_blank" class="btn btn-outline-warning btn-sm">
+              View Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

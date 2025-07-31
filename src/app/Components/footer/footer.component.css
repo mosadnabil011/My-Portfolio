@@ -1,0 +1,13 @@
+footer {
+  font-size: 14px;
+}
+
+.social-icons i {
+  transition: transform 0.3s;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+  color: #0d6efd; 
+}
+
