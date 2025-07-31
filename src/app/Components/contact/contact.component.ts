@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import * as emailjs from '@emailjs/browser';
-import { FormsModule } from '@angular/forms'; // مهم للنماذج
+import { FormsModule } from '@angular/forms'; 
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -30,7 +30,7 @@ export class ContactComponent implements AfterViewInit {
     )
     .then(() => {
       alert('Message sent successfully!');
-      this.contactForm.nativeElement.reset(); // Reset the form
+      this.contactForm.nativeElement.reset(); 
     })
     .catch((error) => {
       console.error('Email send error:', error);
