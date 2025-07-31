@@ -16,10 +16,8 @@ export class HomeComponent implements AfterViewInit{
   constructor(private cdref: ChangeDetectorRef) {}
 
   ngAfterViewInit(): void {
-  // ✅ Detect changes
   this.cdref.detectChanges();
 
-  // ✅ Start typing effect
   const options = {
     strings: ['MOSAD NABIL ABOKAMER'],
     typeSpeed: 100,
