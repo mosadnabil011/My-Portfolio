@@ -16,7 +16,6 @@ ngAfterViewInit() {
   window.addEventListener('scroll', () => {
     const scrollY = window.pageYOffset;
 
-    // حالة خاصة للهوم
     if (scrollY < 100) {
       navLinks.forEach(link => {
         link.classList.remove('active');
