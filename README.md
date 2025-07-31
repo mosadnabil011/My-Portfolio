@@ -1,27 +1,50 @@
-# Portfolio
+# 🧑‍💻 Mosad Nabil Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Welcome to my personal portfolio! This web application showcases my skills, projects, and experiences as a **Full Stack Web Developer**. Built using modern technologies to reflect my development capabilities, design taste, and attention to detail.
 
-## Development server
+## 🚀 Live Demo
+[Click here to view the portfolio](https://688baebfbe5031598ebc3f48--profound-gelato-3679f2.netlify.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Features
 
-## Code scaffolding
+- 🖼️ Clean and modern UI using **Bootstrap 5**
+- 🔄 Smooth navigation and responsive layout
+- 📂 Projects section with real-world examples
+- 📞 Contact section with functional email link
+- 📎 Social media integration (GitHub, LinkedIn)
+- 🧾 Printable Student Cards (in educational projects)
+- 🌐 Fully responsive and accessible across browsers
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Tech Stack
 
-## Build
+- **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript (Vanilla)
+- **Tools:** Font Awesome, Google Fonts
+- **Hosting:** GitHub Pages / Netlify / Vercel (your choice)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Project Structure
 
-## Running unit tests
+```bash
+src/
+├── app/
+│ ├── Components/
+│ │ ├── navbar/
+│ │ ├── home/
+│ │ ├── about/
+│ │ ├── skills/
+│ │ ├── projects/
+│ │ └── contact/
+│ └── app.component.ts
+├── assets/
+├── environments/
+└── index.html
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
 
-## Running end-to-end tests
+I’m Mosad Nabil Abokamer, a passionate web developer skilled in building responsive websites and educational web applications. I’m always learning new technologies and open to freelance or remote opportunities.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+📬 Contact
+📧 Email: mosadnabil011@gmail.com
 
-## Further help
+🧑‍💻 GitHub: https://github.com/mosadnabil011
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+💼 LinkedIn: https://www.linkedin.com/in/mosad-abokamer-9b98a3268/
