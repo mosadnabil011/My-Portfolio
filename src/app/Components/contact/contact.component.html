@@ -1,0 +1,68 @@
+<section id="contact" class="section-shell contact-section">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">Contact</span>
+      <h2 class="section-title">Let’s build something meaningful.</h2>
+    </div>
+
+    <div class="row justify-content-center g-4">
+      <div class="col-lg-7" data-aos="fade-up">
+        <form #contactForm class="contact-form glass-card" novalidate>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" name="user_name" class="form-control" id="name" placeholder="Enter your name" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" name="user_email" class="form-control" id="email" placeholder="Enter your email" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" class="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <!-- Honeypot field: hidden from real users via CSS, bots tend to fill every field -->
+          <div class="honeypot-field" aria-hidden="true">
+            <label for="company">Company</label>
+            <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <button type="submit" class="primary-btn submit-btn" [disabled]="status === 'sending'">
+            <i class="bi bi-send-fill"></i>
+            {{ status === 'sending' ? 'Sending...' : 'Send Message' }}
+          </button>
+
+          <p class="form-status form-status-success" *ngIf="status === 'success'">
+            Message sent successfully! I'll get back to you soon.
+          </p>
+          <p class="form-status form-status-error" *ngIf="status === 'error'">
+            Something went wrong, please try again or email me directly.
+          </p>
+        </form>
+      </div>
+
+      <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-info glass-card">
+          <h3>Connect</h3>
+
+          <a href="mailto:mosadnabil011&#64;gmail.com" class="contact-link">
+            <i class="bi bi-envelope-fill"></i>
+            <span>mosadnabil011&#64;gmail.com</span>
+          </a>
+
+          <a href="https://github.com/mosadnabil011" target="_blank" rel="noreferrer" class="contact-link">
+            <i class="bi bi-github"></i>
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mosaadabokammer/" target="_blank" rel="noreferrer" class="contact-link">
+            <i class="bi bi-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

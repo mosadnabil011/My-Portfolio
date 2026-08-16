@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.glass-glow {
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  backdrop-filter: none;
+}

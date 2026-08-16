@@ -1,0 +1,73 @@
+.about-section {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.about-story {
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.about-story p {
+  color: var(--muted);
+  font-size: 1.07rem;
+  margin-bottom: 1.1rem;
+}
+
+.accent-text {
+  color: #f3f4ff;
+  font-weight: 700;
+}
+
+.about-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.metric-item {
+  padding: 1rem 0.75rem;
+  border-radius: 1rem;
+  background: rgba(148, 163, 184, 0.05);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.metric-item strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.92rem;
+  color: #f8fbff;
+}
+
+.metric-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.about-visual {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 360px;
+  filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.42));
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: translateY(-3px) scale(1.01);
+}
+
+@media (max-width: 767.98px) {
+  .about-metrics {
+    grid-template-columns: 1fr;
+  }
+}
